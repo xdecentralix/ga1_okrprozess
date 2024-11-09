@@ -160,7 +160,7 @@
         <value xmi:type="expression:Expression" xmi:id="_fhhstJq2Ee-udcTX2DqWHA" content="" returnTypeFixed="true"/>
       </searchIndexes>
     </elements>
-    <elements xmi:type="process:Pool" xmi:id="_91hIQJq5Ee-udcTX2DqWHA" name="Workflow-Engine">
+    <elements xmi:type="process:Pool" xmi:id="_91hIQJq5Ee-udcTX2DqWHA" name="Benutzung von OKRs bei der Lufthansa Group">
       <elements xmi:type="process:Lane" xmi:id="_AjWAcJq6Ee-udcTX2DqWHA" name="Automatisch">
         <elements xmi:type="process:StartTimerEvent" xmi:id="_AVxCAJq7Ee-udcTX2DqWHA" name="zu Quartalsbeginn" outgoing="_lvsHsJwtEe-mT8Ksbs8g8Q">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_AVxpEJq7Ee-udcTX2DqWHA" name="" content="" returnTypeFixed="true"/>
@@ -279,9 +279,13 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_Hr4845wtEe-mT8Ksbs8g8Q" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_Hr484pwtEe-mT8Ksbs8g8Q" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_RA7ZqJwtEe-mT8Ksbs8g8Q">
-            <targetForm xmi:type="expression:Expression" xmi:id="_RA7ZqZwtEe-mT8Ksbs8g8Q" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_p-nOcJ1aEe-LMOxZ6qvm6Q" name="newForm1" content="1615c711-9089-46e1-9052-780bce09c8b6" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_RA7Zp5wtEe-mT8Ksbs8g8Q"/>
+          <contract xmi:type="process:Contract" xmi:id="_RA7Zp5wtEe-mT8Ksbs8g8Q">
+            <inputs xmi:type="process:ContractInput" xmi:id="_vFJqcJ1aEe-LMOxZ6qvm6Q" name="input1">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="_vFJqcZ1aEe-LMOxZ6qvm6Q"/>
+            </inputs>
+          </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_RA7ZqpwtEe-mT8Ksbs8g8Q" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:Task" xmi:id="_sbCBgJwxEe-mT8Ksbs8g8Q" name="OKRs bewerten" outgoing="_wUNSgJwxEe-mT8Ksbs8g8Q" incoming="_q4tTIJwxEe-mT8Ksbs8g8Q" overrideActorsOfTheLane="false">
@@ -544,7 +548,7 @@
         </elements>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_91sHYJq5Ee-udcTX2DqWHA">
-        <targetForm xmi:type="expression:Expression" xmi:id="_91sucJq5Ee-udcTX2DqWHA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_ZMHhoJ1aEe-LMOxZ6qvm6Q" name="newForm" content="6ba1cf6a-1ef3-475c-b89d-3ec1135c613e" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_91sucZq5Ee-udcTX2DqWHA">
         <targetForm xmi:type="expression:Expression" xmi:id="_91sucpq5Ee-udcTX2DqWHA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>

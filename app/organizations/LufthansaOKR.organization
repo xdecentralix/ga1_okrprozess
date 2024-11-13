@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="LufthansaOKR">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Peter">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Frank">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Teammitglieder">
+      <displayName>Teammitglieder</displayName>
+    </role>
+    <role name="Management">
+      <displayName>Management</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Teammitglieder">
+      <displayName>Teammitglieder</displayName>
+    </group>
+    <group name="Management">
+      <displayName>Management</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Peter</userName>
+      <roleName>Teammitglieder</roleName>
+      <groupName>Teammitglieder</groupName>
+    </membership>
+    <membership>
+      <userName>Frank</userName>
+      <roleName>Teammitglieder</roleName>
+      <groupName>Management</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>

@@ -547,6 +547,9 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_d2JVlJxOEe-mT8Ksbs8g8Q" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
+      <data xmi:type="process:BusinessObjectData" xmi:id="_MzV1QKHHEe-OGdnwi5UBNw" name="okr" multiple="true" dataType="_fhhsvZq2Ee-udcTX2DqWHA" className="com.reuschritzi.model.OKR">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_MzWcUKHHEe-OGdnwi5UBNw" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
+      </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_91sHYJq5Ee-udcTX2DqWHA">
         <targetForm xmi:type="expression:Expression" xmi:id="_ZMHhoJ1aEe-LMOxZ6qvm6Q" name="newForm" content="6ba1cf6a-1ef3-475c-b89d-3ec1135c613e" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>

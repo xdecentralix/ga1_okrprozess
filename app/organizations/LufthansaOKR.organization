@@ -2,13 +2,35 @@
 <organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="LufthansaOKR">
   <customUserInfoDefinitions/>
   <users>
-    <user userName="Peter">
+    <user userName="Lars">
+      <manager>Ignatz</manager>
       <personalData/>
       <professionalData/>
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
-    <user userName="Frank">
+    <user userName="Meryl">
+      <manager>Ignatz</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Melissa">
+      <manager>Ignatz</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Ignatz">
+      <manager>Alberto</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Alberto">
       <personalData/>
       <professionalData/>
       <password encrypted="false">123</password>
@@ -22,23 +44,44 @@
     <role name="Management">
       <displayName>Management</displayName>
     </role>
+    <role name="Team Lead">
+      <displayName>Team Lead</displayName>
+    </role>
   </roles>
   <groups>
-    <group name="Teammitglieder">
-      <displayName>Teammitglieder</displayName>
+    <group name="Team">
+      <displayName>Team</displayName>
     </group>
     <group name="Management">
       <displayName>Management</displayName>
     </group>
+    <group name="Lead">
+      <displayName>Group1</displayName>
+    </group>
   </groups>
   <memberships>
     <membership>
-      <userName>Peter</userName>
+      <userName>Lars</userName>
       <roleName>Teammitglieder</roleName>
-      <groupName>Teammitglieder</groupName>
+      <groupName>Team</groupName>
     </membership>
     <membership>
-      <userName>Frank</userName>
+      <userName>Meryl</userName>
+      <roleName>Teammitglieder</roleName>
+      <groupName>Team</groupName>
+    </membership>
+    <membership>
+      <userName>Melissa</userName>
+      <roleName>Teammitglieder</roleName>
+      <groupName>Team</groupName>
+    </membership>
+    <membership>
+      <userName>Ignatz</userName>
+      <roleName>Teammitglieder</roleName>
+      <groupName>Lead</groupName>
+    </membership>
+    <membership>
+      <userName>Alberto</userName>
       <roleName>Teammitglieder</roleName>
       <groupName>Management</groupName>
     </membership>

@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="8.0.0">
     <businessObjects>
-        <businessObject qualifiedName="com.reuschritzi.model.Feedback">
-            <fields>
-                <field type="STRING" length="255" name="feedback_id" nullable="false" collection="false"/>
-                <relationField type="AGGREGATION" reference="com.reuschritzi.model.OKR" fetchType="LAZY" name="okr" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
-        <businessObject qualifiedName="com.reuschritzi.model.KeyResult">
-            <fields>
-                <field type="STRING" length="255" name="key_result_id" nullable="false" collection="false"/>
-                <field type="STRING" length="255" name="status" nullable="false" collection="false"/>
-                <field type="STRING" length="255" name="progress" nullable="false" collection="false"/>
-                <relationField type="COMPOSITION" reference="com.reuschritzi.model.OKR" fetchType="LAZY" name="okr" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="description" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
         <businessObject qualifiedName="com.reuschritzi.model.Meeting">
             <fields>
                 <field type="STRING" length="255" name="meeting_id" nullable="false" collection="false"/>
@@ -46,11 +25,11 @@
                 <field type="STRING" length="255" name="creation_date" nullable="false" collection="false"/>
                 <field type="STRING" length="255" name="kpi" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="strategy_alignment" nullable="true" collection="false"/>
-                <relationField type="AGGREGATION" reference="com.reuschritzi.model.TeamMember" fetchType="LAZY" name="team_members" nullable="true" collection="true"/>
+                <relationField type="AGGREGATION" reference="com.reuschritzi.model.TeamMember" fetchType="LAZY" name="team_member" nullable="true" collection="true"/>
                 <field type="LOCALDATE" length="255" name="start_date" nullable="false" collection="false"/>
                 <field type="LOCALDATE" length="255" name="due_date" nullable="false" collection="false"/>
                 <field type="STRING" length="255" name="review_status" nullable="true" collection="false"/>
-                <relationField type="AGGREGATION" reference="com.reuschritzi.model.Feedback" fetchType="LAZY" name="feedback_list" nullable="true" collection="true"/>
+                <field type="TEXT" length="255" name="feedback_list" nullable="true" collection="true"/>
                 <field type="OFFSETDATETIME" length="255" name="last_modified" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>

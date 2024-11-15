@@ -621,11 +621,11 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_k-or8pwyEe-mT8Ksbs8g8Q" type="5032">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_k-or85wyEe-mT8Ksbs8g8Q" y="5"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k-or8ZwyEe-mT8Ksbs8g8Q" x="1601" y="52"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k-or8ZwyEe-mT8Ksbs8g8Q" x="1600" y="52"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_qRiwAJwyEe-mT8Ksbs8g8Q" type="3027" element="_qRfFoJwyEe-mT8Ksbs8g8Q" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_qRiwApwyEe-mT8Ksbs8g8Q" type="5017"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qRiwAZwyEe-mT8Ksbs8g8Q" x="1715" y="40" width="132" height="66"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qRiwAZwyEe-mT8Ksbs8g8Q" x="1715" y="40" width="163" height="80"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_fOph8JxAEe-mT8Ksbs8g8Q" type="3027" element="_fOnFsJxAEe-mT8Ksbs8g8Q" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_fOph8ZxAEe-mT8Ksbs8g8Q" type="5017" element="_fOnFsJxAEe-mT8Ksbs8g8Q"/>

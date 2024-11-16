@@ -39,7 +39,16 @@
         <businessObject qualifiedName="com.reuschritzi.model.Strategy">
             <fields>
                 <field type="TEXT" length="255" name="content" nullable="false" collection="false"/>
-                <field type="STRING" length="255" name="strategy_id" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.reuschritzi.model.Task">
+            <fields>
+                <field type="STRING" length="255" name="task_id" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="description" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.reuschritzi.model.TeamMember" fetchType="LAZY" name="team_member" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

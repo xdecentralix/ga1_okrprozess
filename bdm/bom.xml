@@ -6,10 +6,10 @@
                 <field type="STRING" length="255" name="meeting_id" nullable="false" collection="false"/>
                 <field type="OFFSETDATETIME" length="255" name="meeting_date" nullable="false" collection="false"/>
                 <field type="STRING" length="255" name="meeting_type" nullable="false" collection="false"/>
-                <field type="STRING" length="255" name="status" nullable="false" collection="false"/>
                 <field type="INTEGER" length="255" name="duration" nullable="false" collection="false"/>
                 <field type="STRING" length="255" name="agenda" nullable="false" collection="false"/>
                 <relationField type="AGGREGATION" reference="com.reuschritzi.model.TeamMember" fetchType="LAZY" name="participants" nullable="true" collection="true"/>
+                <field type="STRING" length="255" name="status" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -39,12 +39,15 @@
             <fields>
                 <field type="BOOLEAN" length="255" name="is_okay" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="was_reviewed" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="start_date" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="due_date" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="start_date" nullable="false" collection="false"/>
+                <field type="LOCALDATE" length="255" name="due_date" nullable="false" collection="false"/>
                 <relationField type="AGGREGATION" reference="com.reuschritzi.model.TeamMember" fetchType="LAZY" name="team_member" nullable="true" collection="true"/>
-                <field type="LOCALDATE" length="255" name="creation_date" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="content" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="okr1_id" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="creation_date" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="content" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="okr1_id" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="on_track" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="final_result" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="takeaways" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -54,12 +57,15 @@
             <fields>
                 <field type="BOOLEAN" length="255" name="is_okay" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="was_reviewed" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="start_date" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="due_date" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="start_date" nullable="false" collection="false"/>
+                <field type="LOCALDATE" length="255" name="due_date" nullable="false" collection="false"/>
                 <relationField type="AGGREGATION" reference="com.reuschritzi.model.TeamMember" fetchType="LAZY" name="team_member" nullable="true" collection="true"/>
-                <field type="LOCALDATE" length="255" name="creation_date" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="content" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="okr2_id" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="creation_date" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="content" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="okr2_id" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="on_track" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="final_result" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="takeaways" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -69,12 +75,15 @@
             <fields>
                 <field type="BOOLEAN" length="255" name="is_okay" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="was_reviewed" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="start_date" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="due_date" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="start_date" nullable="false" collection="false"/>
+                <field type="LOCALDATE" length="255" name="due_date" nullable="false" collection="false"/>
                 <relationField type="AGGREGATION" reference="com.reuschritzi.model.TeamMember" fetchType="LAZY" name="team_member" nullable="true" collection="true"/>
-                <field type="LOCALDATE" length="255" name="creation_date" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="content" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="okr3_id" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="creation_date" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="content" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="okr3_id" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="on_track" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="final_result" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="takeaways" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -83,6 +92,22 @@
         <businessObject qualifiedName="com.reuschritzi.model.Presentation">
             <fields>
                 <field type="BOOLEAN" length="255" name="is_created" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.reuschritzi.model.Reminder">
+            <fields>
+                <field type="BOOLEAN" length="255" name="reminder_sent" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.reuschritzi.model.Results">
+            <fields>
+                <field type="BOOLEAN" length="255" name="sent_results" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

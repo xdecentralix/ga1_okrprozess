@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "e1bb627b-4b1f-4041-8a6d-ae0a8966254e",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731934956337,
+  "lastUpdate" : 1731943436110,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -154,7 +154,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Okr1"
+                    "value" : "OKR 1"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -163,6 +163,10 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
                   }
                 },
                 "reference" : "cdb3c4a1-317c-4d7b-9698-9a36aeffae4e",
@@ -335,7 +339,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Start_date"
+                          "value" : "Start Date"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -396,7 +400,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Due_date"
+                          "value" : "Due Date"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -453,7 +457,7 @@
                         },
                         "text" : {
                           "type" : "interpolation",
-                          "value" : "Team_member"
+                          "value" : "Team Member"
                         },
                         "alignment" : {
                           "type" : "constant",
@@ -462,6 +466,10 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
                       "reference" : "4bd66205-cdf0-47cb-b614-5cadb1d43377",
@@ -529,7 +537,7 @@
                               },
                               "label" : {
                                 "type" : "interpolation",
-                                "value" : "Member_id"
+                                "value" : "Member ID"
                               },
                               "text" : {
                                 "type" : "interpolation",
@@ -654,7 +662,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Creation_date"
+                          "value" : "Creation Date"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -776,7 +784,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Okr1_id"
+                          "value" : "ID"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -836,7 +844,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Okr2"
+                    "value" : "OKR 2"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -845,6 +853,10 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
                   }
                 },
                 "reference" : "d59a5ffc-d2d7-42c3-810e-0f8a38fec86b",
@@ -1017,7 +1029,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Start_date"
+                          "value" : "Start Date"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1030,6 +1042,18 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
                         }
                       },
                       "reference" : "58713fd8-5f1b-4480-a628-92583cf51cae",
@@ -1066,7 +1090,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Due_date"
+                          "value" : "Due Date"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1079,6 +1103,18 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
                         }
                       },
                       "reference" : "7d822333-3526-4134-ae4f-51f0a4b6e69a",
@@ -1187,7 +1223,7 @@
                               },
                               "label" : {
                                 "type" : "interpolation",
-                                "value" : "Member_id"
+                                "value" : "Member ID"
                               },
                               "text" : {
                                 "type" : "interpolation",
@@ -1200,6 +1236,18 @@
                               "dimension" : {
                                 "type" : "constant",
                                 "value" : 12
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "labelPosition" : {
+                                "type" : "constant",
+                                "value" : "top"
+                              },
+                              "labelWidth" : {
+                                "type" : "constant",
+                                "value" : 4
                               }
                             },
                             "reference" : "000e90ba-cdc7-4d4c-9959-d12c661b28ab",
@@ -1249,6 +1297,18 @@
                               "dimension" : {
                                 "type" : "constant",
                                 "value" : 12
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "labelPosition" : {
+                                "type" : "constant",
+                                "value" : "top"
+                              },
+                              "labelWidth" : {
+                                "type" : "constant",
+                                "value" : 4
                               }
                             },
                             "reference" : "28e5b2b6-9ad5-4351-89d0-c0255acf9f9a",
@@ -1288,7 +1348,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Creation_date"
+                          "value" : "Creation Date"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1301,6 +1361,18 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
                         }
                       },
                       "reference" : "7a085280-7963-4577-b454-73a4e84e1e0c",
@@ -1386,7 +1458,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Okr2_id"
+                          "value" : "ID"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1399,6 +1471,18 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
                         }
                       },
                       "reference" : "44a6ac0d-7675-4518-a320-a92d6d51c0a4",
@@ -1434,7 +1518,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Okr3"
+                    "value" : "OKR 3"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -1443,6 +1527,10 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
                   }
                 },
                 "reference" : "76a8c705-5bf7-4cb6-b917-c4df33a1ff6e",
@@ -1615,7 +1703,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Start_date"
+                          "value" : "Start Date"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1628,6 +1716,18 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
                         }
                       },
                       "reference" : "55e84d77-e17f-46a0-80a9-e42295364702",
@@ -1664,7 +1764,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Due_date"
+                          "value" : "Due Date"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1677,6 +1777,18 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
                         }
                       },
                       "reference" : "b529140f-b2d7-4499-b0ad-2290e9411db0",
@@ -1709,7 +1821,7 @@
                         },
                         "text" : {
                           "type" : "interpolation",
-                          "value" : "Team_member"
+                          "value" : "Team Member"
                         },
                         "alignment" : {
                           "type" : "constant",
@@ -1718,6 +1830,10 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
                       "reference" : "d96585ab-c6db-416b-b59f-7d1d3e82cdd9",
@@ -1785,7 +1901,7 @@
                               },
                               "label" : {
                                 "type" : "interpolation",
-                                "value" : "Member_id"
+                                "value" : "Member ID"
                               },
                               "text" : {
                                 "type" : "interpolation",
@@ -1798,6 +1914,18 @@
                               "dimension" : {
                                 "type" : "constant",
                                 "value" : 12
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "labelPosition" : {
+                                "type" : "constant",
+                                "value" : "top"
+                              },
+                              "labelWidth" : {
+                                "type" : "constant",
+                                "value" : 4
                               }
                             },
                             "reference" : "7d5d753b-3e60-4157-91f7-ab3d33539098",
@@ -1886,7 +2014,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Creation_date"
+                          "value" : "Creation Date"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1899,6 +2027,18 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
                         }
                       },
                       "reference" : "e0dfe939-a2bc-4524-8d45-053f6461dddd",
@@ -1948,6 +2088,18 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
                         }
                       },
                       "reference" : "06e8e656-48cb-4b7c-838f-48140b90decc",
@@ -1984,7 +2136,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Okr3_id"
+                          "value" : "ID"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1997,6 +2149,18 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
                         }
                       },
                       "reference" : "6976d74c-cce2-4f40-9a11-f44c3bb844a0",
